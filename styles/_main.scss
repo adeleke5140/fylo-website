@@ -1,0 +1,185 @@
+.intro{
+    margin-top:5em;
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    h1 {
+        width: 80%;
+        @include fw-bold;
+        color: $p-color1;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+    p{
+        width: 90%;
+        color: $p-color1;
+        @include fw-normal;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1.5em;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5em;
+        align-items: center;
+        border-radius: 5px;
+        input[type="text"]{
+            width: 80%;
+            border:none;
+            color: $p-color1;
+            padding:1em 1em 1em 1.5em;
+            border: 1px solid $p-color1;
+            border-radius: 5px;
+        }
+        input[type="button"]{
+            width:80%;
+            margin-top:1em;
+            padding: 1em;
+            background: $a-color1;
+            border:none;
+            border-radius: 5px;
+            color: $n-color1;
+            @include fw-bold;
+            font-size:1rem;
+        }
+    }
+}
+
+.product-info{
+    width: 100%;
+    //background: url('../images/bg-curve-mobile.svg') no-repeat;
+    margin-top:5em;
+    img{
+        display: block;
+        max-width: 100%;
+        width:250px;
+        margin: 0 auto;
+    }
+    h3 {
+        color: $p-color1;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 3em;
+        margin-bottom: 1.3em;
+    }
+    p{
+        width:85%;
+        text-align: center;
+        color: $p-color2;
+        margin: 0 auto;
+    }
+    .product-info__text2{
+        margin-top:1em;
+        margin-bottom: 1.5em;
+        font-size: 1rem;
+        width:90%;
+    }
+    .try-product{
+        color: $a-color2;
+        border-bottom: 1px solid $a-color2;
+        padding-bottom:0.3em;
+        &::after{
+            content: '\2192';
+            color:$a-color1;
+            //background: $a-color2;
+            border: none;
+            border-radius: 50%;
+            margin-left:.5em;
+            text-align: center;
+        }
+    }
+}
+
+.testimonial {
+    border:none;
+    background:$n-color1;
+    border-radius: 5px;
+    width:90%;
+    margin:0 auto;
+    margin-top:3em;
+    padding: 2em;
+    blockquote{
+        position: relative;
+        &:before{
+            content: '\201c';
+            @include fw-bold;
+            font-size: 2.5rem;
+            position: absolute;
+            top: -0.8em;
+            font-family: $font-family1;
+        }
+    }
+    p{
+        text-align:left;
+        font-size:.9rem;
+        width:100%;
+        margin-top:1em;
+
+    }
+    aside{
+        display: flex;
+        flex-flow: row wrap;
+        position: relative;
+        top:1.5em;
+        img{
+            display: inline-block;    
+            max-width: 100%;
+            border-radius: 50%;
+            width:50px;
+            height:50px;
+        }
+        p{
+            display: inline-block;
+            flex-basis: 60%;
+            position: relative;
+            left:-10px;
+            bottom: 10px;
+            span{
+                @include fw-bold;
+                color:$p-color1;
+            }
+        }
+    }
+}
+
+.product-access {
+    background:$p-color2;
+    width: 100%;
+    margin-top:5em;
+    padding: 3em;
+    color: $n-color1;
+    h3{
+        @include fw-bold;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 1.3em;
+    }
+    p{
+        width:100%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.6;
+        margin-bottom: 1em;
+    }
+    input[type="text"]{
+        width: 100%;
+        padding: 1em;
+        border:none;
+        border-radius: 5px;
+    }
+    input[type="button"]{
+        background-color: $a-color1;
+        border-radius: 5px;
+        padding:.7em 1em;
+        font-size: 1rem;
+        border:none;
+        margin-top: .7em;
+        width: 100%;
+        color: $n-color1;
+        @include fw-bold;
+    }
+}
+
