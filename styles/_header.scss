@@ -1,0 +1,33 @@
+
+body {
+    font-family: $font-family2;
+    list-style-type: none;
+    font-family:16px;
+    line-height: 1.6;
+}
+
+header {
+    font-family: $font-family1;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+    img {
+        height: 20px;
+    }
+}
+
+nav {
+    ul{
+        list-style-type:none;
+        @include fw-normal;
+        margin-left: 2.5em;
+         li{
+             display: inline-block;
+             margin-right: 1em;
+             color:$p-color1;
+         }
+    }
+}
