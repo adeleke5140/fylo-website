@@ -5,3 +5,8 @@
 @mixin fw-normal {
     font-weight: map-get($map: $font-weights, $key:'normal' );
 }
+
+@mixin left-align {
+    text-align: left;
+    margin-left:0;
+}
