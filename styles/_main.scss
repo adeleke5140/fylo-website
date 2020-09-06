@@ -81,6 +81,9 @@
         color: $a-color2;
         border-bottom: 1px solid $a-color2;
         padding-bottom:0.3em;
+        &:hover{
+            cursor: pointer;
+        }
         &::after{
             content: '\2192';
             color:$a-color2;
