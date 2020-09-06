@@ -349,6 +349,21 @@ footer .footer-subsection1 p {
   header nav li {
     margin-right: 3em;
   }
+  header nav li a {
+    background: -webkit-gradient(linear, left top, left bottom, from(#3065f8), to(#3065f8));
+    background: linear-gradient(to bottom, #3065f8 0%, #3065f8 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    -webkit-transition: background-size .2s;
+    transition: background-size .2s;
+  }
+  header nav li a:hover {
+    background-size: 4px 50px;
+    color: #f6f6fe;
+    font-weight: 700;
+    padding: .1em;
+  }
   .intro {
     display: -ms-grid;
     display: grid;
@@ -482,14 +497,6 @@ footer .footer-subsection1 p {
   .product-access .product-access__title p {
     text-align: left;
     font-size: .9rem;
-  }
-}
-
-@media only screen and (min-width: 767px) {
-  header {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=styles.css.map */
