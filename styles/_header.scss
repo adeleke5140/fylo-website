@@ -27,7 +27,11 @@ nav {
          li{
              display: inline-block;
              margin-right: 1em;
-             color:$p-color1;
+             a{
+                 display: inline-block;
+                 text-decoration: none;
+                 color:$p-color1;
+             }
          }
     }
 }
