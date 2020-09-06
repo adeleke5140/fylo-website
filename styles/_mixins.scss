@@ -10,3 +10,15 @@
     text-align: left;
     margin-left:0;
 }
+
+@mixin btn_hover{
+    transition: all 0.2s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+@mixin grid_align($position,$value){
+    grid-row:2/3;
+    position: $position;
+    bottom: $value;
+}
