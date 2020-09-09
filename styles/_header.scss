@@ -6,6 +6,8 @@ body {
     line-height: 1.6;
 }
 
+
+
 header {
     font-family: $font-family1;
     width: 100%;
@@ -16,6 +18,12 @@ header {
     margin-top: 2em;
     img {
         height: 20px;
+    }
+}
+
+@media (prefers-color-scheme:dark){
+    header img{
+        color:white;
     }
 }
 
