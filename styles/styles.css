@@ -272,7 +272,7 @@ nav ul li a {
   border-radius: 5px;
 }
 
-.product-access input[type="button"] {
+.product-access input[type="submit"] {
   background-color: #3065f8;
   border-radius: 5px;
   padding: .7em 1em;
