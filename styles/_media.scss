@@ -142,8 +142,9 @@
         form{
             margin-top: 2em;
         }
-        input[type="button"]{
+        input[type="submit"]{
             width: 40%;
+            
             &:hover {
                 @include btn_hover;
             }

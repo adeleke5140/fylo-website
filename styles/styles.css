@@ -523,10 +523,10 @@ footer .footer-subsection1 p {
   .product-access form {
     margin-top: 2em;
   }
-  .product-access input[type="button"] {
+  .product-access input[type="submit"] {
     width: 40%;
   }
-  .product-access input[type="button"]:hover {
+  .product-access input[type="submit"]:hover {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
