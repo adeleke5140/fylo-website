@@ -112,7 +112,7 @@ nav ul li a {
   border-radius: 5px;
 }
 
-.intro form input[type="button"] {
+.intro form input[type="submit"] {
   width: 80%;
   margin-top: 1em;
   padding: 1em;
